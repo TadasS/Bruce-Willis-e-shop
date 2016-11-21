@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <bw_WorkingHours>
+            <version>0.1</version>
+        </bw_WorkingHours>
+    </modules>
+
+    <global>
+        <blocks>
+            <WorkingHours>
+                <class>bw_WorkingHours_Block</class>
+            </WorkingHours>
+        </blocks>
+    </global>
+</config>
