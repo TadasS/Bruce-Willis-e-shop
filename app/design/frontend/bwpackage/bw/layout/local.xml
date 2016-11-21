@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <default>
+        <remove name="footer.newsletter" />
+
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_css</type>
+                <file>css/bw_styles.css</file>
+            </action>
+        </reference>
+
+        <reference name="footer">
+            <block type="core/template" name="footer.contactForm" form_action="/contacts/index/post" template="contacts/footer_form.phtml"/>
+        </reference>
+    </default>
+
+    <contacts_index_index>
+        <remove name="footer.contactForm" />
+    </contacts_index_index>
+</layout>
